@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif; /* TARVITAAN NÄMÄ MOLEMMAT FONTTIRIVIT IMPORTATUN FONTIN KÄYTTÖÖN */
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #49b7e8;
+    color: white;
+}
+
+#mainTitle { /* Etusivun pääotsikon (h1) HelppoSää määritelmä */
+    text-align: center; /* Keskelle sivua */ 
+    font-size: 6rem; 
+}
+
+#subHeader { /* h2:n määritelmä */
+    margin-top: 50%;
+    margin-bottom: 10%;
+}
+
+.container-sm /* Suurin osa elementeistä löytyy tästä containerista */
+{
+    max-width: 40%;
+    max-height: 30%;
+
+}
+.jumbotron { /* Bootstrapin mukana tuleva valmiselementti */ 
+    background-color: #49b7e8;
+
+}
+
+a { /* Etusivun pääotsikkoa voi klikata (= sen ympärillä on linkki). Otsikosta siitä huolimatta valkoinen. */ 
+    color: white;
+}
+
+.col-sm { /* Keskitetään Bootstrapin mukana tulevat ikonit */
+    text-align: center;
+}
